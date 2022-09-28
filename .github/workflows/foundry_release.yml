@@ -17,4 +17,4 @@ jobs:
         uses: foundryvtt-dcc/foundry-release-action@main
         with:
           actionToken: ${{ secrets.GITHUB_TOKEN }}
-          manifestFileName: 'system.json'
+          manifestFileName: 'module.json'
