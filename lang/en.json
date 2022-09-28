@@ -1,0 +1,12 @@
+{
+	"kroemels-little-helper": {
+		"settings": {
+			"inherent-lightning-system.name": "Enable Auto Detect Light",
+			"inherent-lightning-system.hint": "Creates a light source for all tokens of an actor when they equip certain items (Torch)",
+			"some-cosmetic-changes.name": "Enable Replacing Chat Rolls",
+			"some-cosmetic-changes.hint": "Replaces all Chat Skill / Save Rolls to be replaced with the style of Monk Token Bar",
+			"combat-improvement.name": "Enable Auto Roll Initiative",
+			"combat-improvement.hint": "When Combat starts roll automatically all NPC and give all Players a Monk Token Request for Initiative"
+		}
+	}
+}

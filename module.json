@@ -1,0 +1,49 @@
+{
+    "name": "kroemels-little-helper",
+    "title": "Kroemel's little Helper",
+    "description": "Ja Moin. This Mods does some stuff",
+    "authors": [
+        {
+            "name": "Kroemel",
+            "discord": "Kroemelmonster#9651",
+            "flags": {}
+        }
+    ],
+    "relationships": {
+        "systems": [
+            {
+                "id": "dnd5e",
+                "type": "system",
+                "compatibility": {
+                    "minimum": "2.0.1",
+                    "compatible": "2.0.3"
+                }
+            }
+        ],
+        "requires": [
+            {
+                "id": "monks-tokenbar",
+                "type": "module"
+            }
+        ]
+    },
+    "version": "1.00",
+    "minimumCoreVersion": "10",
+    "compatibleCoreVersion": "10",
+    "esmodules": [
+        "main.js",
+        "apps/settings.js",
+        "apps/combatImprovement.js",
+        "apps/inherentLightningSystem.js",
+        "apps/someCosmeticChanges.js",
+        "apps/utils.js"
+    ],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json",
+            "flags": {}
+        }    ],
+    "id": "kroemels-little-helper"
+}
