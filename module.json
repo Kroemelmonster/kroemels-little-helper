@@ -38,6 +38,9 @@
         "apps/someCosmeticChanges.js",
         "apps/utils.js"
     ],
+    "url": "https://github.com/Kroemelmonster/kroemels-little-helper",
+    "manifest": "https://github.com/Kroemelmonster/kroemels-little-helper/releases/latest/download/module.json",
+    "download": "https://github.com/Kroemelmonster/kroemels-little-helper/releases/latest/download/module.zip",
     "languages": [
         {
             "lang": "en",
