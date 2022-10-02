@@ -18,7 +18,7 @@ export const getAllTokensOfActor = (actorId) => {
 };
 
 export const timeout = async (time) => {
-    new Promise(r => setTimeout(r, time));
+    return new Promise(r => setTimeout(() => r(), time));
 };
 
 export const isCurrentUser = (userID) => {

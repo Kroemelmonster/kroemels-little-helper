@@ -34,7 +34,7 @@ export class KroemelsLittleHelper {
 
         Hooks.on('createCombat', async (combat, changes, userID) => {
             if (!isCurrentUser(userID)) return;
-            await CombatImprovement.onCreateCombat(combat);
+            await CombatImprovement.onCreateCombat(combat, changes);
         });
 
         Hooks.on("renderSettingsConfig", (app, html) => {

@@ -23,7 +23,7 @@ export class CombatImprovement {
         if (!this.isEnabled()) return;
         if (combat.started) return;
         await timeout(1000);
-        const pcTokens = game.combat.combatants.filter((combatant) => !combatant.isNPC)
+        const pcTokens = game.combat.combatants.filter((combatant) => !combatant.isNPC);
         const pcTokenNames = pcTokens.map((combatant) => ({'token': combatant.token.name}))
         game.MonksTokenBar.requestRoll(pcTokenNames, {
             request:'misc:init',
